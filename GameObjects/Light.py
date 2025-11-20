@@ -3,8 +3,7 @@ import pygame
 import math
 
 class Light(GameObject):
-    def __init__(self, engine, scene, pos, size,tag, raio_mais_pequeno=20,
-                piscar=False, intensity=1.0, color=(255, 255, 200)):
+    def __init__(self, engine, scene, pos,size,tag, raio_mais_pequeno=20,piscar=False, intensity=1.0, color=(255, 255, 200)):
         super().__init__(engine, scene, pos, size,tag)
 
         self.intensity_base = intensity
@@ -12,7 +11,7 @@ class Light(GameObject):
         self.color = color
         self.size = size
 
-        self.surface = pygame.Surface(size, pygame.SRCALPHA)
+        self.surface = pygame.Surface((raio_mais_pequeno * 2,raio_mais_pequeno*2), pygame.SRCALPHA)
 
         self.piscar = piscar
         self.piscar_speed = 3.0
@@ -25,7 +24,6 @@ class Light(GameObject):
     def update(self, dt, events=None):
         if self.piscar:
             self.time += dt * self.piscar_speed
-            # piscar suave
             self.intensity = self.intensity_base * (0.5 + 0.5 * math.sin(self.time))
             self.update_light_surface()
 
@@ -33,7 +31,7 @@ class Light(GameObject):
         self.surface.fill((0, 0, 0, 0))
 
         radius = self.raio_mais_pequeno
-        center = (self.size[0] // 2, self.size[1] // 2)
+        center = (self.raio_mais_pequeno,self.raio_mais_pequeno)
 
         for r in range(radius, 0, -1):
             alpha = int((self.intensity * 255) * (1 - (r / radius))**2)

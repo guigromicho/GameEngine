@@ -3,8 +3,8 @@ import pygame
 
 class Entity(GameObject):
 
-    def __init__(self, engine,scene, pos, size,tag,detect_colligions=False, affected_by_gravity=False,sprite=None):
-        super().__init__(engine,scene,pos, size, tag ,detect_colligions, sprite)
+    def __init__(self, engine,scene, pos, size,tag,detect_colligions=False, affected_by_gravity=False):
+        super().__init__(engine,scene,pos, size, tag ,detect_colligions)
         self.engine = engine
         self.affected_by_gravity = affected_by_gravity
         self.velocity = [0, 0]
