@@ -1,6 +1,7 @@
 import pygame
 from GameEngine.Scene.Transição_entre_Scene import Transicao
 
+
 class Engine:
     def __init__(self, gravaty, back_ground_color=(0,0,0)):
         pygame.init()
@@ -17,6 +18,8 @@ class Engine:
 
         self.transitions = {}
         self.current_transition = None
+
+        self.show_colliders = False
 
     def add_scene(self, name, scene):
         self.scenes[name] = scene
@@ -52,10 +55,14 @@ class Engine:
         for event in events:
             if event.type == pygame.QUIT:
                 self.running = False
+            
+            if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_c:
+                    self.show_colliders = not self.show_colliders
 
         if self.current_scene and (not self.current_transition or not self.current_transition.ativa):
             self.current_scene.handle_event(events)
-            self.current_scene.update(dt, events)
+            self.current_scene.update(events,dt)
 
         if self.current_transition and self.current_transition.ativa:
             self.current_transition.update()

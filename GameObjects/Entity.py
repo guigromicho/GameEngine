@@ -1,26 +1,33 @@
-from GameEngine.GameObjects.GameObjects import GameObject
 import pygame
 
-class Entity(GameObject):
+class Entity:
+    def __init__(self, engine, scene, pos, size, tag,
+                detect_collisions=True, affected_by_gravity=True):
 
-    def __init__(self, engine,scene, pos, size,tag,detect_colligions=False, affected_by_gravity=False):
-        super().__init__(engine,scene,pos, size, tag ,detect_colligions)
         self.engine = engine
-        self.affected_by_gravity = affected_by_gravity
+        self.scene = scene
+
+        self.pos = list(pos)
+        self.size = size
+        self.rect = pygame.Rect(pos[0], pos[1], size[0], size[1])
+
         self.velocity = [0, 0]
-        self.gravaty = self.engine.gravaty
+        self.tag = tag
 
-    def update(self, dt,events):
-        super().update(dt)
-        self.handel_events(events)
-        self.update_gravity(dt)
+        self.detect_collisions_enabled = detect_collisions
+        self.affected_by_gravity = affected_by_gravity
 
-    def update_gravity(self, dt):
+    def update(self, dt, events):
         if self.affected_by_gravity:
-            self.velocity[1] += (self.engine.gravaty * 2) * dt
-            self.pos[1] += self.velocity[1] * dt
-            self.rect.topleft = self.pos
+            self.velocity[1] += 2000 * dt
 
-    def handel_events(self, events):
-        for event in events:
-            pass
+        self.pos[0] += self.velocity[0] * dt
+        self.pos[1] += self.velocity[1] * dt
+
+        self.rect.topleft = self.pos
+
+    def draw(self, surface):
+        pygame.draw.rect(surface, (255, 0, 255), self.rect)
+
+    def detect_collision(self, other):
+        pass

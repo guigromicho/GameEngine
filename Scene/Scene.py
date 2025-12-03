@@ -3,18 +3,27 @@ import pygame
 class Scene:
     def __init__(self, engine):
         self.engine = engine
+        self.colligion_objects = []
         self.objects = []
+        self.collision_objects = []
         self.buttons = []
 
     def add_object(self, obj):
         self.objects.append(obj)
 
-    def update(self, dt,events):
+    def update(self, dt, events):
         for obj in self.objects:
             obj.update(dt, events)
+
+        for obj in self.objects:
             for other in self.objects:
-                if obj is not other and other.detect_collisions_enabled:
-                    obj.detect_collision(other)
+                if obj is other:
+                    continue
+
+                if not other.detect_collisions_enabled:
+                    continue
+
+                obj.detect_collision(other)
 
         for button in self.buttons:
             button.update()
