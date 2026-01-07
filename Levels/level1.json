@@ -451,43 +451,43 @@
         "x": 3,
         "y": 10,
         "folder": "Stone_tile",
-        "name": "Middle_rigth_1",
+        "name": "Down_left_2",
         "layer": 0
     },
     {
         "x": 3,
         "y": 11,
         "folder": "Stone_tile",
-        "name": "Middle_rigth_1",
-        "layer": 0
+        "name": "Middle_middle_1",
+        "layer": 1
     },
     {
         "x": 3,
         "y": 12,
         "folder": "Stone_tile",
-        "name": "Middle_rigth_1",
-        "layer": 0
+        "name": "Middle_middle_1",
+        "layer": 1
     },
     {
         "x": 3,
         "y": 13,
         "folder": "Stone_tile",
-        "name": "Middle_rigth_1",
-        "layer": 0
+        "name": "Middle_middle_1",
+        "layer": 1
     },
     {
         "x": 3,
         "y": 14,
         "folder": "Stone_tile",
-        "name": "Middle_rigth_1",
-        "layer": 0
+        "name": "Middle_middle_1",
+        "layer": 1
     },
     {
         "x": 3,
         "y": 15,
         "folder": "Stone_tile",
-        "name": "Down_left_2",
-        "layer": 0
+        "name": "Middle_middle_1",
+        "layer": 1
     },
     {
         "x": 3,
@@ -519,10 +519,45 @@
     },
     {
         "x": 4,
-        "y": 15,
+        "y": 10,
         "folder": "Stone_tile",
         "name": "Top_middlet_1",
         "layer": 0
+    },
+    {
+        "x": 4,
+        "y": 11,
+        "folder": "Stone_tile",
+        "name": "Middle_middle_1",
+        "layer": 1
+    },
+    {
+        "x": 4,
+        "y": 12,
+        "folder": "Stone_tile",
+        "name": "Middle_middle_1",
+        "layer": 1
+    },
+    {
+        "x": 4,
+        "y": 13,
+        "folder": "Stone_tile",
+        "name": "Middle_middle_1",
+        "layer": 1
+    },
+    {
+        "x": 4,
+        "y": 14,
+        "folder": "Stone_tile",
+        "name": "Middle_middle_1",
+        "layer": 1
+    },
+    {
+        "x": 4,
+        "y": 15,
+        "folder": "Stone_tile",
+        "name": "Middle_middle_1",
+        "layer": 1
     },
     {
         "x": 4,
@@ -554,10 +589,45 @@
     },
     {
         "x": 5,
-        "y": 15,
+        "y": 10,
         "folder": "Stone_tile",
         "name": "Top_middlet_1",
         "layer": 0
+    },
+    {
+        "x": 5,
+        "y": 11,
+        "folder": "Stone_tile",
+        "name": "Middle_middle_1",
+        "layer": 1
+    },
+    {
+        "x": 5,
+        "y": 12,
+        "folder": "Stone_tile",
+        "name": "Middle_middle_1",
+        "layer": 1
+    },
+    {
+        "x": 5,
+        "y": 13,
+        "folder": "Stone_tile",
+        "name": "Middle_middle_1",
+        "layer": 1
+    },
+    {
+        "x": 5,
+        "y": 14,
+        "folder": "Stone_tile",
+        "name": "Middle_middle_1",
+        "layer": 1
+    },
+    {
+        "x": 5,
+        "y": 15,
+        "folder": "Stone_tile",
+        "name": "Middle_middle_1",
+        "layer": 1
     },
     {
         "x": 5,
@@ -589,10 +659,45 @@
     },
     {
         "x": 6,
-        "y": 15,
+        "y": 10,
         "folder": "Stone_tile",
         "name": "Top_middlet_1",
         "layer": 0
+    },
+    {
+        "x": 6,
+        "y": 11,
+        "folder": "Stone_tile",
+        "name": "Middle_middle_1",
+        "layer": 1
+    },
+    {
+        "x": 6,
+        "y": 12,
+        "folder": "Stone_tile",
+        "name": "Middle_middle_1",
+        "layer": 1
+    },
+    {
+        "x": 6,
+        "y": 13,
+        "folder": "Stone_tile",
+        "name": "Middle_middle_1",
+        "layer": 1
+    },
+    {
+        "x": 6,
+        "y": 14,
+        "folder": "Stone_tile",
+        "name": "Middle_middle_1",
+        "layer": 1
+    },
+    {
+        "x": 6,
+        "y": 15,
+        "folder": "Stone_tile",
+        "name": "Middle_middle_1",
+        "layer": 1
     },
     {
         "x": 6,
@@ -624,10 +729,45 @@
     },
     {
         "x": 7,
+        "y": 10,
+        "folder": "Stone_tile",
+        "name": "Top_left_1",
+        "layer": 0
+    },
+    {
+        "x": 7,
+        "y": 11,
+        "folder": "Stone_tile",
+        "name": "Middle_rigth_1",
+        "layer": 0
+    },
+    {
+        "x": 7,
+        "y": 12,
+        "folder": "Stone_tile",
+        "name": "Down_left_2",
+        "layer": 0
+    },
+    {
+        "x": 7,
+        "y": 13,
+        "folder": "Stone_tile",
+        "name": "Middle_middle_1",
+        "layer": 1
+    },
+    {
+        "x": 7,
+        "y": 14,
+        "folder": "Stone_tile",
+        "name": "Middle_middle_1",
+        "layer": 1
+    },
+    {
+        "x": 7,
         "y": 15,
         "folder": "Stone_tile",
-        "name": "Top_middlet_1",
-        "layer": 0
+        "name": "Middle_middle_1",
+        "layer": 1
     },
     {
         "x": 7,
@@ -673,10 +813,31 @@
     },
     {
         "x": 8,
+        "y": 12,
+        "folder": "Stone_tile",
+        "name": "Top_left_1",
+        "layer": 0
+    },
+    {
+        "x": 8,
+        "y": 13,
+        "folder": "Stone_tile",
+        "name": "Down_left_2",
+        "layer": 0
+    },
+    {
+        "x": 8,
+        "y": 14,
+        "folder": "Stone_tile",
+        "name": "Middle_middle_1",
+        "layer": 1
+    },
+    {
+        "x": 8,
         "y": 15,
         "folder": "Stone_tile",
-        "name": "Top_middlet_1",
-        "layer": 0
+        "name": "Middle_middle_1",
+        "layer": 1
     },
     {
         "x": 8,
@@ -708,10 +869,24 @@
     },
     {
         "x": 9,
-        "y": 15,
+        "y": 13,
         "folder": "Stone_tile",
         "name": "Top_middlet_1",
         "layer": 0
+    },
+    {
+        "x": 9,
+        "y": 14,
+        "folder": "Stone_tile",
+        "name": "Middle_middle_1",
+        "layer": 1
+    },
+    {
+        "x": 9,
+        "y": 15,
+        "folder": "Stone_tile",
+        "name": "Middle_middle_1",
+        "layer": 1
     },
     {
         "x": 9,
@@ -743,9 +918,23 @@
     },
     {
         "x": 10,
+        "y": 13,
+        "folder": "Stone_tile",
+        "name": "Top_left_1",
+        "layer": 0
+    },
+    {
+        "x": 10,
+        "y": 14,
+        "folder": "Stone_tile",
+        "name": "Middle_rigth_1",
+        "layer": 0
+    },
+    {
+        "x": 10,
         "y": 15,
         "folder": "Stone_tile",
-        "name": "Top_middlet_1",
+        "name": "Down_left_2",
         "layer": 0
     },
     {
@@ -844,6 +1033,20 @@
         "y": 1,
         "folder": "Stone_tile",
         "name": "Down_middle_1",
+        "layer": 0
+    },
+    {
+        "x": 13,
+        "y": 9,
+        "folder": "Stone_tile",
+        "name": "Top_right_1",
+        "layer": 0
+    },
+    {
+        "x": 13,
+        "y": 10,
+        "folder": "Stone_tile",
+        "name": "Down_left_1",
         "layer": 0
     },
     {
@@ -879,6 +1082,20 @@
         "y": 1,
         "folder": "Stone_tile",
         "name": "Down_middle_1",
+        "layer": 0
+    },
+    {
+        "x": 14,
+        "y": 9,
+        "folder": "Stone_tile",
+        "name": "Top_left_1",
+        "layer": 0
+    },
+    {
+        "x": 14,
+        "y": 10,
+        "folder": "Stone_tile",
+        "name": "Down_rigth_1",
         "layer": 0
     },
     {
@@ -1019,6 +1236,20 @@
         "y": 1,
         "folder": "Stone_tile",
         "name": "Down_middle_1",
+        "layer": 0
+    },
+    {
+        "x": 18,
+        "y": 7,
+        "folder": "Stone_tile",
+        "name": "Top_right_1",
+        "layer": 0
+    },
+    {
+        "x": 18,
+        "y": 8,
+        "folder": "Stone_tile",
+        "name": "Down_left_1",
         "layer": 0
     },
     {
@@ -1054,6 +1285,20 @@
         "y": 1,
         "folder": "Stone_tile",
         "name": "Down_middle_1",
+        "layer": 0
+    },
+    {
+        "x": 19,
+        "y": 7,
+        "folder": "Stone_tile",
+        "name": "Top_left_1",
+        "layer": 0
+    },
+    {
+        "x": 19,
+        "y": 8,
+        "folder": "Stone_tile",
+        "name": "Down_rigth_1",
         "layer": 0
     },
     {
@@ -1186,14 +1431,14 @@
         "x": 22,
         "y": 5,
         "folder": "Stone_tile",
-        "name": "Middle_left_1",
+        "name": "Down_left_1",
         "layer": 0
     },
     {
         "x": 22,
         "y": 9,
         "folder": "Stone_tile",
-        "name": "Middle_left_1",
+        "name": "Top_right_1",
         "layer": 0
     },
     {
@@ -1291,36 +1536,15 @@
         "x": 23,
         "y": 5,
         "folder": "Stone_tile",
-        "name": "Middle_middle_1",
-        "layer": 1
-    },
-    {
-        "x": 23,
-        "y": 6,
-        "folder": "Stone_tile",
-        "name": "Middle_middle_1",
-        "layer": 1
-    },
-    {
-        "x": 23,
-        "y": 7,
-        "folder": "Stone_tile",
-        "name": "Middle_middle_1",
-        "layer": 1
-    },
-    {
-        "x": 23,
-        "y": 8,
-        "folder": "Stone_tile",
-        "name": "Middle_middle_1",
-        "layer": 1
+        "name": "Down_middle_1",
+        "layer": 0
     },
     {
         "x": 23,
         "y": 9,
         "folder": "Stone_tile",
-        "name": "Middle_middle_1",
-        "layer": 1
+        "name": "Top_middlet_1",
+        "layer": 0
     },
     {
         "x": 23,
@@ -1417,36 +1641,15 @@
         "x": 24,
         "y": 5,
         "folder": "Stone_tile",
-        "name": "Middle_middle_1",
-        "layer": 1
-    },
-    {
-        "x": 24,
-        "y": 6,
-        "folder": "Stone_tile",
-        "name": "Middle_middle_1",
-        "layer": 1
-    },
-    {
-        "x": 24,
-        "y": 7,
-        "folder": "Stone_tile",
-        "name": "Middle_middle_1",
-        "layer": 1
-    },
-    {
-        "x": 24,
-        "y": 8,
-        "folder": "Stone_tile",
-        "name": "Middle_middle_1",
-        "layer": 1
+        "name": "Down_middle_1",
+        "layer": 0
     },
     {
         "x": 24,
         "y": 9,
         "folder": "Stone_tile",
-        "name": "Middle_middle_1",
-        "layer": 1
+        "name": "Top_middlet_1",
+        "layer": 0
     },
     {
         "x": 24,
@@ -1543,36 +1746,15 @@
         "x": 25,
         "y": 5,
         "folder": "Stone_tile",
-        "name": "Middle_middle_1",
-        "layer": 1
-    },
-    {
-        "x": 25,
-        "y": 6,
-        "folder": "Stone_tile",
-        "name": "Middle_middle_1",
-        "layer": 1
-    },
-    {
-        "x": 25,
-        "y": 7,
-        "folder": "Stone_tile",
-        "name": "Middle_middle_1",
-        "layer": 1
-    },
-    {
-        "x": 25,
-        "y": 8,
-        "folder": "Stone_tile",
-        "name": "Middle_middle_1",
-        "layer": 1
+        "name": "Down_middle_1",
+        "layer": 0
     },
     {
         "x": 25,
         "y": 9,
         "folder": "Stone_tile",
-        "name": "Middle_middle_1",
-        "layer": 1
+        "name": "Top_middlet_1",
+        "layer": 0
     },
     {
         "x": 25,

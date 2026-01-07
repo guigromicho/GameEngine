@@ -19,7 +19,7 @@ class Entity:
 
     def update(self, dt, events):
         if self.affected_by_gravity:
-            self.velocity[1] += 2000 * dt
+            self.velocity[1] += self.engine.gravaty * dt
 
         self.pos[0] += self.velocity[0] * dt
         self.pos[1] += self.velocity[1] * dt

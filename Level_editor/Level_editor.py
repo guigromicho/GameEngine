@@ -157,6 +157,14 @@ class LevelEditor:
                     if tile:
                         tile.on_left_click()
 
+                elif event.button == 2:
+                    tile = self.get_tile_at_mouse(mouse_pos)
+                    if tile:
+                        sprite = tile.sprite
+                        if sprite:
+                            print("Selected sprite from tile ", sprite)
+                            self.selected_sprite = tile.sprite_key
+
                 if event.button == 3 and mouse_pos[0] < self.sidebar_x:
                     tile = self.get_tile_at_mouse(mouse_pos)
                     if tile:
